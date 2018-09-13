@@ -1,0 +1,24 @@
+.box {
+    background: pink;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+
+    padding: 20px 40px 10px 30px; /*order like a clock.shorter version*/
+    padding: 20px 40px 30px; /*the last number will be the second one you've input */
+    padding: 20px;
+
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+
+    border-top: 2px solid black; /*shorter*/
+    border: 1px solid rgb(141, 38, 224); /*shortest!*/
+
+    margin: 20px;
+}

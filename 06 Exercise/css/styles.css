@@ -1,0 +1,34 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+ 
+}
+
+header {
+    background: rgb(117, 117, 243);
+    padding: 20px;
+    margin-top:0px;
+    height: 200px;
+    
+    
+}
+
+main {
+    background: rgb(209, 209, 209);
+    padding: 20px;
+    margin-top: 0px;
+    height: 200px;
+    
+    
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    margin-top: 0px;
+    height: 200px;
+    color: white;
+    
+}
+
