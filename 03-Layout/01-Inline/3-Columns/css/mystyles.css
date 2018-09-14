@@ -1,0 +1,21 @@
+.main, .secondary, .third {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.main {
+    width: 50%;
+    margin-right: calc(20px - 4px);
+}
+
+.secondary {
+    width: calc(30% - 20px);
+    margin-right: calc(20px - 4px);
+    
+}
+
+.third {
+    width: calc(20% - 20px);
+
+}

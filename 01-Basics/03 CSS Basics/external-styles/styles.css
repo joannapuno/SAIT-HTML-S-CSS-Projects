@@ -1,0 +1,30 @@
+.team-section {
+    background: lightgray;
+     
+}
+
+.green {
+    color: green;
+
+}
+
+.blue {
+
+    color: blue;
+
+}
+.red {
+
+    color: red;
+
+}
+.purple {
+
+    color: purple;
+
+}
+
+.team-section p {
+
+    opacity:0.3;
+}

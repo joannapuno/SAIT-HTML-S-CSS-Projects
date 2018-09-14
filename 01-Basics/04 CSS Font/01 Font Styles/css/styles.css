@@ -1,0 +1,27 @@
+/* @font-face {
+
+    font-family: 'Open Sans Light';
+    src: url('../Fonts/Open-Sans/OpenSans-Light.ttf');
+} */
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+/* font-style: italic; */
+/* This is the comment thing on CSS! */
+    
+}
+
