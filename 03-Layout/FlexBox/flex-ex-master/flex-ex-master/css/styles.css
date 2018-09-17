@@ -22,7 +22,7 @@
 
 .content p {
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.2em;
     /* text-align: justify; */
 }
 
@@ -44,20 +44,29 @@ h1, p {
     align-items: center;
     height: 100px ;
     width: 100%;
-    
+    justify-content: space-between;
+   
+ 
    
 }
 
 a   {
     color: white;
-    margin: 0;
-    width: 100%; 
+    font-size: 25px;
+    /* background: pink;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-between; */
+
+
     
 }
+
+
+
+
+
 
 
 
