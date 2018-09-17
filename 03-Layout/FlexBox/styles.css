@@ -1,0 +1,45 @@
+/* PARENT */
+
+.flex-container {
+    width: 70%;
+    margin: 100px auto 0;
+    background: pink;
+    height: 400px;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+
+/* CHILD */
+.box-1, .box-2, .box-3 {
+    height: 100px;
+    /* width: 100px; */
+    background: orange;
+    margin: 10px;
+    flex-basis: 200px;
+    /* how long it is based on the direction, will override the width. 
+    use flex-basis to define width in general*/
+
+
+}
+
+.box-1 {
+    flex-grow: 1;
+    flex: 1 1 200px; /* Shrink, Grow, max-width */
+    
+}
+.box-2 {
+    flex-grow: 1;
+
+}
+.box-3 {
+    flex-grow: 1;
+
+
+}
+

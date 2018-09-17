@@ -28,3 +28,30 @@
     display: table;
     clear: both;
 }
+/* Medium */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .main, .third {
+        width: calc(50% - 20px);
+        margin-right:20px;     
+
+        }
+    .secondary, .fourth {
+        width: calc(50% - 20px);
+        margin-right: 20px;        
+    }
+    
+
+}
+
+/* Small */
+
+@media screen and (max-width: 600px) {
+    .main,
+    .secondary,
+    .third,
+    .fourth {
+        width: 100%
+        
+    }
+
+}

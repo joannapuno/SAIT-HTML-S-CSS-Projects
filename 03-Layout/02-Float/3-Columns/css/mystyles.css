@@ -22,3 +22,29 @@
     display: table;
     clear: both;
 }
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+   
+    .main,
+    .secondary {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+        
+    }
+
+    .third {
+        width: calc(100% - 20px);
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main,
+    .secondary,
+    .third {
+        width: 100%;
+        margin-right: 20px;
+    }
+}
