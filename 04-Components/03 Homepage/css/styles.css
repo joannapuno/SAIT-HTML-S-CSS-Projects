@@ -1,7 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * *
 General
 * * * * * * * * * * * * * * * * * * * * */
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -13,11 +13,7 @@ General
 
 h1 {
     font-family: 'Roboto', sans-serif;
-}
-
-
-
-
+} */
 
 
 
@@ -27,6 +23,49 @@ Header
 header {
     height: 66px;
     background: #222;
+}
+
+/* header .container {
+    display: flex;
+} don't wanna change bootstrap
+
+*/
+
+.logo {
+    color: pink;
+    width: 100px;
+    margin-right: auto;
+}
+
+.logo span {
+    margin-left: 5px;
+    color: #fff;
+}
+
+header ul {
+    margin-bottom: 0;
+    display: flex;  
+    list-style: none; 
+        
+}
+
+
+header ul li a {
+    height: 66px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.404);
+}
+a:hover {
+    color: pink;
+    text-decoration: none;
 }
 
 /* * * * * * * * * * * * * * * * * * * * *
