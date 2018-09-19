@@ -13,3 +13,26 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+/* try not to use it too often */
+/* if the a tag is the first child, then do this style */
+a:first-child {
+    background: black;
+}
+
+/* try not to use this!!! */
+a:nth-child(3) {
+    background: red;
+}
+/* will change even numbers into this style */
+a:nth-child(even) {
+    background: yellow;
+}
+
+/* will start changing the 2nd one or whatever number you put in and then the follwing */
+a:nth-child(n + 2) {
+    background: purple;
+}
+
+/* nthmaster.com, but why? */
+
+

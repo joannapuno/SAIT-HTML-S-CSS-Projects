@@ -16,3 +16,28 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+
+a:hover {
+    background: #07a;
+}
+
+/* not used a lot a:active {
+    background: green;
+} */
+
+a:visited {
+    background: black;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid rgb(150, 150, 150);
+    outline: none;
+}
+
+
+input:focus {
+    border: 1px solid #000;
+    background: rgb(218, 218, 218);
+}

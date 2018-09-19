@@ -14,3 +14,19 @@ a {
     text-decoration: none;
     line-height: 60px;
 }
+
+/* Adjacent sibling. Not that useful */
+/* Selecting a tags that are siblings of another a tag. Only child is not selected.So sad */
+a + a {
+    color: red;
+}
+/* General siblings. Not that useful either... */
+a ~ span {
+    color: green;
+}
+/* A direct child of the a tag. This is anywhere in the chain */
+a > span {
+    color: yellow;
+}
+
+
