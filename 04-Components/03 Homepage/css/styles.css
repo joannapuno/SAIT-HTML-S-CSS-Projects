@@ -60,6 +60,23 @@ header ul li a {
 
 }
 
+.hamburger-icon {
+    display: none;
+    background: transparent;
+    border: none;
+}
+
+@media (max-width:600px) {
+    header ul {
+        display: none;
+    }
+    .hamburger-icon {
+        display: block;
+        color: #fff;
+    }
+}
+
+
 header ul li a:hover {
     background: rgba(255, 255, 255, 0.404);
 }
@@ -72,8 +89,53 @@ a:hover {
 Hero
 * * * * * * * * * * * * * * * * * * * * */
 .hero {
-    height: 400px;
-    background: #ddd;
+    color: #fff;
+    padding-top: 80px;
+    height: 600px;
+    background: 
+            linear-gradient(90deg, 
+            rgba(0,0,0,0.4), 
+            rgba(0,0,0,0.0)), 
+            url('https://www.google.com/chromebook/static/images/features-hero.jpg');
+    background-size: cover;
+    background-position: 100% 50%;
+
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero hr {
+    border-color: #fff;
+}
+
+.hero button {
+    color: #fff;
+    border:none;
+    background: rgb(255, 51, 0);
+    padding: 10px 20px;;
+}
+
+.hero button:hover {
+    cursor: pointer;
+    background: rgb(189, 6, 0);
+}
+
+@media screen and (max-width:600px) {
+    .hero {
+        height: 400px;
+    }
+    .hero-content {
+        width: 100%;
+    }
 }
 
 
