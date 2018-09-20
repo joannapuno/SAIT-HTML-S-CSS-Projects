@@ -6,6 +6,17 @@
     vertical-align: top;
     height: 180px;
     width: 180px;
+    position: static; /*Static by default */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #222;
+    position: fixed; /*will no longer take flow space, so account for
+    z-index: 100; /*100 is good, max! default 0. background is negative. 
+    the higher, the closer, the smaller the further.
+    Don't use too much*/
 }
 
 .pink-box-1, .pink-box-2, .pink-box-3 {
@@ -14,16 +25,47 @@
     padding: 20px;
     background: #FF5555;
     color: white;
+
 }
 
 .pink-box-1 {
+    position: relative;
+    top: 30px; /*Relative to what it would have been. Relative to its container*/
+    bottom: 0;
+    left: 200px;
+    right: 0; /*These are all position values, don't use in bigger elements*/
+    /* I\when used,it does not push other elements */
 
 }
 
 .pink-box-2 {
+    position: relative;
+    top: 30px; 
+    bottom: 0;
+    left: 200px;
+    right: 0; 
 
 }
 
 .pink-box-3 {
+    position: relative;
+    
 
 }
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: green;
+    /* reference the last positioned element and will use 
+    that position. Usually the window itself. */
+    /* so we want it to have a context */
+    /* Giving it 0 everything stretches it out */
+}
+
+
+/* Position sticky isn't supported yet in a lot of browsers */
+
