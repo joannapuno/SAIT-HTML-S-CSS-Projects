@@ -2,7 +2,50 @@ body {
     padding: 80px;
 }
 
+/* Transitions */
+
+/* /* .box {
+    height: 100px;
+    width: 100px;
+    background: pink;
+    transition-duration: 1s;
+    transition-property: background, width; */
+    /* if you don't specify this, media query will keep 
+    animating when width is changed */
+    /* transition-timing-function: ease-in-out;
+    transition-delay: 0.2s; */
+    /* transition: background 1s ease-in-out 0.0;
+    transition: background 1s; */
+/* } */
+
+.container {
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+/* Transforms */
+
 .box {
     height: 100px;
     width: 100px;
+    transition: 0.2s;
+    
+    /* transform-origin: 0 0; */
+    /* transform: scale(1); */
+    /* transform: rotate(0deg); */
+    background: pink;
+
 }
+
+.container:hover .box {
+    transform: translate(0px,100px);
+    /* (left and right, top and bottom) */
+    /* transform: scale(1.2); */
+    /* transform: rotate(120deg); */
+}
+/* This wil affect the box inside the container. The green box is more stable */
+
+

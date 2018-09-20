@@ -20,18 +20,24 @@
     background-repeat: no-repeat;
     margin: 10px;
 
+    display: inline-block;
+    margin: 0 20px 0 2px;
+    vertical-align: top;
+    position: relative;
+
 }
 
-.bottom-card {
+.content-box {
   background: rgb(49, 49, 49);
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 100px;
-  position: relative;
+  position: absolute;
   top: 300px;
   padding: 20px;
 }
 
-.bottom-card h1{
+.content-box h1{
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -39,7 +45,7 @@
   margin: 5px 0px;
 }
 
-.bottom-card p {
+.content-box p {
   font-size: 16px;
   font-family: 'Roboto',sans-serif;
   font-weight: 300;

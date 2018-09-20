@@ -62,7 +62,88 @@ main {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Card
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.card {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background: #555;
+    position: relative; /*Everything will be related to this card!*/
+    overflow: hidden;
+    /* to contain the stuff inside */
+}
 
+.card > p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 80px 20px;
+    transition: 0.5s ease-in-out;
+    transform: translate(0px,50px);
+    opacity: 0;
+    
+}
+
+.card:hover p {
+    opacity: 1;
+    transform: translate(0px,0px);
+
+}
+
+.card-content {
+    background: #fff;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    color: #222;
+    padding: 20px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    transform: translate(0px,60px);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-content p {
+    margin: 0;
+    margin-right: auto;
+    transition: 0.5s ease-in-out;
+    transform: translate(0px, 60px);
+}
+
+.card-content i {
+    margin-left: 10px;
+}
+
+.card:hover .card-content {
+    opacity: 1;
+    transform: translate(0px,0px);
+
+}
+
+
+.card i{
+    transition: 0.5s ease-in-out;
+    transform: translate(0px, 60px);
+
+}
+
+.card:hover i {
+    transform: translate(0px,0px);
+
+}
+
+.card i:nth-child(1) {
+    transition-delay: 0.08s;
+}
+.card i:nth-child(2) {
+    transition-delay: 0.1s;
+}
+.card i:nth-child(3) {
+    transition-delay: 0.15s;
+}
 
 
 
@@ -72,10 +153,10 @@ Card
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Footer
 * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-footer {
+ footer {
     padding: 10px 0;
     background: #222;
-    height: 300px;
+    height:300px;
     width: 100%;
-    color: white;
+    color: #fff;
 }
