@@ -1,31 +1,15 @@
 .hero {
-    background: #ddd;
-    margin-bottom: 15px;
     text-align: center;
-    background: linear-gradient(
-        rgba(255,255,255,0.5),
-        rgba(255,255,255, 0.9) ),
-        url('../img/hero.jpg');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 160px;
-    padding-top: 40px;
     font-weight: bold;
+    @include heroGradient(hsla(0, 0%, 100%, 0.502),hsla(0, 0%, 100%, 0.902), '../img/hero.jpg');
+    
+    @include heroStructure (no-repeat, cover, 160px,40px,15px, #ddd, 50% 50%);
+    
 
     .hero-title {
-        background: #ddd;
-        margin-bottom: 15px;
         text-align: center;
-        background: linear-gradient(
-            rgba(255,255,255,0.5),
-            rgba(255,255,255, 0.9) ),
-            url('../img/hero.jpg');
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 120px;
-        padding-top: 40px;
+        @include heroGradient(hsla(0, 0%, 100%, 0.502),hsla(0, 0%, 100%, 0.902),'../img/hero.jpg');
+        @include heroStructure (no-repeat, cover, 120px,40px,15px, #ddd, 50% 50%);
     }
 
     h1 {

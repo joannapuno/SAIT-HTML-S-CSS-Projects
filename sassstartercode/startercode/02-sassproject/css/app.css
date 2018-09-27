@@ -217,26 +217,26 @@ nav {
     font-size: 8px; }
 
 .hero {
-  background: #ddd;
-  margin-bottom: 15px;
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("../img/hero.jpg");
-  background-position: 50% 50%;
+  font-weight: bold;
+  background: linear-gradient(rgba(255, 255, 255, 0.502), rgba(255, 255, 255, 0.902)), url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 160px;
   padding-top: 40px;
-  font-weight: bold; }
+  margin-bottom: 15px;
+  background: #ddd;
+  background-position: 50% 50%; }
   .hero .hero-title {
-    background: #ddd;
-    margin-bottom: 15px;
     text-align: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("../img/hero.jpg");
-    background-position: 50% 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.502), rgba(255, 255, 255, 0.902)), url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 120px;
-    padding-top: 40px; }
+    padding-top: 40px;
+    margin-bottom: 15px;
+    background: #ddd;
+    background-position: 50% 50%; }
   .hero h1 {
     font-weight: bold; }
 
@@ -261,15 +261,12 @@ footer {
     color: rgba(255, 255, 255, 0.7);
     font-size: 8px; }
 
-.card {
+.card, .product-summary-card, .employee-card, .product-card {
   background: #239;
   height: 130px;
   padding: 20px; }
 
 .product-summary-card {
-  background: #239;
-  height: 130px;
-  padding: 20px;
   text-align: center;
   padding-top: 34px; }
   .product-summary-card .product-title {
@@ -284,8 +281,6 @@ footer {
 
 .employee-card {
   background: #239;
-  height: 130px;
-  padding: 20px;
   text-align: left; }
   .employee-card .employee-title {
     color: white;
@@ -299,8 +294,6 @@ footer {
 
 .product-card {
   background: #239;
-  height: 130px;
-  padding: 20px;
   text-align: left;
   height: 140px; }
   .product-card p {

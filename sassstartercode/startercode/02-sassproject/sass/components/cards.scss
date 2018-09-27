@@ -6,9 +6,7 @@
 
 
 .product-summary-card {
-    background: $secondary-color;
-    height: 130px;
-    padding: 20px;
+    @extend .card; 
     text-align: center;
     padding-top: 34px;
 
@@ -29,8 +27,7 @@
 
 .employee-card {
     background: $secondary-color;
-    height: 130px;
-    padding: 20px;
+   @extend .card;
     text-align: left;
 
     .employee-title {
@@ -50,8 +47,7 @@
 
 .product-card {
     background: $secondary-color;
-    height: 130px;
-    padding: 20px;
+    @extend .card;
     text-align: left;
     height: 140px;
 

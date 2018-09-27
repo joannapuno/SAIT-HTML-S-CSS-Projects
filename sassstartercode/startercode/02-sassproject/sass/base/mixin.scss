@@ -1,0 +1,21 @@
+@mixin heroGradient ($color1,$color2,$url) {
+    background: linear-gradient( $color1,$color2),
+    url($url);
+
+  
+}
+
+@mixin heroStructure ($repeat, $size,$height, $padding,$margin,$background,$position) {
+    background-repeat: $repeat;
+    background-size: $size;
+    height: $height;
+    padding-top: $padding;
+    margin-bottom: $margin;
+    background: $background;
+    background-position: $position;
+}
+
+
+
+
+        

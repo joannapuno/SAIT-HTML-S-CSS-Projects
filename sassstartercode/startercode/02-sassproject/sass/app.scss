@@ -5,11 +5,14 @@
 @import './base/layout.scss';
 @import './base/variables.scss';
 @import './base/general.scss';
+// your layout needs to be in the right order!!!
+@import './base/mixin.scss';
 @import './components/header.scss';
 @import './components/hero.scss';
 @import './components/footer.scss';
 @import './components/cards.scss';
 @import './components/input.scss';
+
 
 
 
