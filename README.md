@@ -9,7 +9,7 @@ That’s because I am still a student and I am learning lots of things! I am lov
 
 ------Tools-------
 ```
-In this project, we are creating static Web pages using:
+In this module, we are creating static Web pages using:
 * HTML + CSS 
 * Using preprocessors such as SCSS
 * Bootstrap
