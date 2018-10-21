@@ -9,22 +9,21 @@ That’s because I am still a student and I am learning lots of things! I am lov
 
 # Tools
 
-## In this module, we are creating static Web pages using:
-```
+###### In this module, we are creating static Web pages using:
+
 * HTML + CSS 
 * Using preprocessors such as SCSS
 * Bootstrap
 * Float
 * Flex Boxes (whoo!)
 
-```
 
-## Deployed through:
+###### Deployed through:
 * ZEIT Now
 * AWS
 
-## Collaborated in a Group Project:
-```
+###### Collaborated in a Group Project:
+
 * Kanban 
 * Pull requests
 * Resolved merge conflicts
