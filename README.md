@@ -8,8 +8,8 @@ That’s because I am still a student and I am learning lots of things! I am lov
 
 
 ------Tools-------
-
-```In this project, we are creating static Web pages using:
+```
+In this project, we are creating static Web pages using:
 * HTML + CSS 
 * Using preprocessors such as SCSS
 * Bootstrap
@@ -24,5 +24,5 @@ Collaborated in a Group Project:
 * Kanban 
 * Pull requests
 * Resolved merge conflicts
-* Communicated throughout the project```
+* Communicated throughout the project
 
