@@ -1,4 +1,4 @@
-# Introduction
+# Welcome!
 
 
 Hello awesome human being(or..alien?) and thank you for taking the time to view my repos!
@@ -7,13 +7,13 @@ That’s because I am still a student and I am learning lots of things! I am lov
 
 
 
-# Tools
+# Tools + Techniques
 
 ###### In this module, we are creating static Web pages using:
 
 * HTML + CSS 
-* Using preprocessors such as SCSS
-* Bootstrap
+* Using preprocessors such as SASS
+* Bootstrap + Zurb Foundation
 * Float
 * Flex Boxes (whoo!)
 
@@ -29,3 +29,9 @@ That’s because I am still a student and I am learning lots of things! I am lov
 * Resolved merge conflicts
 * Communicated throughout the project
 
+###### Taking actions using the command line:
+* Git commits, push
+* Running npm gulp
+* Installing packages
+* Creating files 
+* and more!
